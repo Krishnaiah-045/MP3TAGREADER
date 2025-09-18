@@ -3,13 +3,6 @@
 #include "header.h"
 #include "validation.h"
 
-#define RESET   "\033[0m"
-#define RED     "\033[31m"
-#define GREEN   "\033[32m"
-#define YELLOW  "\033[33m"
-#define CYAN    "\033[36m"
-#define BOLD    "\033[1m"
-
 int main(int argc, char *argv[])
 {
     char arr[6][5] = {"TPE1", "TIT2", "TALB", "TYER", "TCON", "TCOM"};
